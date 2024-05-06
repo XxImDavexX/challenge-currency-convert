@@ -38,7 +38,7 @@ public class Currencies {
     @Override
     public String toString(){
         return this.baseCurrency + ": " + this.amount +
-                "\n"+ this.targetCurrency + " value : $" + this.valueBaseCurrency +
+                "\n"+ this.targetCurrency + " value for $1 " + this.baseCurrency + ": $" + this.valueBaseCurrency +
                 "\nTotal "+ this.targetCurrency + ": $" + this.totalTargetCurrency;
     }
 
